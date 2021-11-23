@@ -1,0 +1,137 @@
+@media (max-width: 991px) {
+
+/* mobile menu */
+.header-logo{
+  display: none;
+}
+.header-nav-bar{
+  display: none;
+}
+.loging-btn ul i.fa-bars{
+  display: block;
+  position: absolute;
+  top: 4%;
+  font-size: 30px;
+  color: #fff;
+  padding-left: 15px;
+}
+.loging-btn ul i.fa-times{
+  display: none;
+  position: absolute;
+  top: 4%;
+  color: red;
+  font-size: 40px;
+}
+.loging-btn ul li{
+  padding-right: 20px;
+}
+
+.mobile-menu-section{
+  display: block;
+}
+.mobile-menu{
+  position: absolute;
+  background: #d35400;
+  display: none;
+  top: 15%;
+  right: 0;
+  width: 200px;
+  height: 100vh;
+  color: #fff;
+}
+.mobile-menu ul{
+  margin-top: 100px;
+  background: #e74c3c;
+}
+.mobile-menu ul > a{
+  border-bottom: 1px solid black;
+  margin-left: -30px;
+}
+.mobile-menu ul > a i.fa-search{
+  margin-right: 30px;
+  font-size: 20px;
+}
+.mobile-menu ul > a i.fa-shopping-basket{
+  margin-right: 0px;
+  font-size: 20px;
+}
+.mobile-menu ul li{
+  padding: 0 10px;
+  margin-left: -30px;
+}
+.mobile-menu ul a{
+  padding: 20px 0;
+  display: block;
+  color: #fff;
+  font-weight: bolder;
+}
+
+
+.html{
+  margin-left: 0px;
+}
+
+
+
+.mobile-menu-logo{
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+.mobile-menu-logo img{
+  width: 45px;
+}
+.login-and-icon{
+  position: absolute;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  right: 3%;
+  top: 4%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width: 340px) {
+  
+  .about-title h1{
+    font-size: 20px;
+  }
+  .live-course-title h1{
+    font-size: 25px;
+  }
+  iframe{
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+  }
+
+
+
+
+}
